@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+.curso1{
+    background-color: aqua;
+    padding: 2rem;
+}
+.curso2{
+    background-color: pink;
+    padding: 2rem;
+}
+
+.curso_total{
+    background-color: green;
+    padding: 2rem;
+}
+
+
+/*----------------NOSOTROS--------------*/
+
+.btn_nosotros {
+    padding: 1rem;
+}
+.btn_nosotros ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.btn_nosotros a {
+    text-decoration: none;
+    color: black;
+}
+.info_nosotros {
+    padding: 1rem;
+}
+.contenedor_img {
+    width: 50%;
+    padding: 0.5rem;
+    /*background-color: blue;*/
+}
+.contenedor_img img {
+    width: 90%;
+}
+
+
+.footer{
+    background-color: coral;
+    height: 20vh;
+}
+
+
+@media(min-widht:768px){
+    .tienda{
+        background-color: blue;
+    }
+    .comunidad{
+        background-color: darkgrey;
+        display: flex;
+    }
+    .comunidad__imagen{
+        width: 60%;
+    }
+    .texto{
+        width: 40%;
+        padding-top: 2rem;
+    }
+}
+
+
+@media(min-widht: 992px){
+    .tienda{
+        background-color: pink;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+@media(min-widht:1200px){
+    .tienda{
+        background-color: green;
+        flex-wrap: nowrap;
+    }
+}
